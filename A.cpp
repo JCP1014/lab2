@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-		rating r;
+		Rating r;
 		float data[10000];
 		int output[10000];
 		int count=0;

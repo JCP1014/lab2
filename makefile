@@ -1,6 +1,11 @@
 all: A.o a.o
-	g++ -o A A.o a.h
+	g++ -o A A.o a.o
+
+a.o: a.cpp a.h
+	g++ -c a.cpp
+
 A.o: A.cpp a.h
 	g++ -c A.cpp
-a.o: a.h
-	g++ -c a.h
+
+clean:
+	rm a *.o
