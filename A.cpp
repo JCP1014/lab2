@@ -24,7 +24,7 @@ int main()
 		
 		r.setK(data[0]);
 		r.setRA(data[1]);
-	    r.setRB(data[2]);
+	    	r.setRB(data[2]);
 		output[0] = r.getRA();
 		output[1] = r.getRB();
 		for(int i=2;i<(count-3)*2;i=i+2)
